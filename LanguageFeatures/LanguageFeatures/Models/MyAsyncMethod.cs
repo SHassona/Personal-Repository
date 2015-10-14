@@ -13,4 +13,14 @@ namespace LanguageFeatures.Models
             { return antecedent.Result.Content.Headers.ContentLength; });
         }
     }
+
+    public class MyAsyncMethodAA
+    {
+        public async static Task<long?> GetPageLength()
+        {
+            HttpClient client = new HttpClient();
+            var httpMessage = await client.GetAsync("http:/apress.com");
+            return httpMessage.Content.Headers.ContentLength;
+        }
+    }
 }
