@@ -1,0 +1,41 @@
+﻿@model Razor.Models.Product
+
+@{
+    ViewBag.Title = "DemoExpression";
+}
+
+<table>
+    <thead>
+    <tr><th>Właściwość</th><th>Wartość</th></tr>
+    </thead>
+    <tbody>
+    <tr><td>Nazwa</td><td>@Model.Name</td></tr>
+    <tr><td>Cena</td><td>@Model.Price</td></tr>
+        <tr>
+            <td>Ilość w magazynie</td>
+            <td>
+                @if ((int) @ViewBag.ProductCount == 0)
+                {
+                    @:Brak
+                }
+                else if ((int)@ViewBag.ProductCount == 1)
+                {
+                    <b>Mało (@ViewBag.ProductCount)</b>
+                }
+                else
+                {
+                    @ViewBag.ProductCount
+                }
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<div data-discount="@ViewBag.ApplyDiscount" data-express="@ViewBag.ExpressShip"
+     data-supplier="@ViewBag.Supplier">
+    Element posiada atrybuty danych
+</div>
+
+Rabat:<input type="checkbox" checked="@ViewBag.ApplyDiscount"/>
+Express:<input type="checkbox" checked="@ViewBag.ExpressShip"/>
+Dostawca:<input type="checkbox" checked="@ViewBag.Supplier"/>
