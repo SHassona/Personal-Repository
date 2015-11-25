@@ -40,3 +40,7 @@ C:\Users\shass\Documents\Personal-Repository\SportsStore\SportsStore.WebUI\bin\S
 C:\Users\shass\Documents\Personal-Repository\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache
 C:\Users\shass\Documents\Personal-Repository\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
 C:\Users\shass\Documents\Personal-Repository\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+C:\Users\shass\Documents\Personal-Repository\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+C:\Users\shass\Documents\Personal-Repository\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\shass\Documents\Personal-Repository\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+C:\Users\shass\Documents\Personal-Repository\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml

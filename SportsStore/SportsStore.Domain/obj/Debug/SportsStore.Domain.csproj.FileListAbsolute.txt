@@ -16,3 +16,8 @@ C:\Users\shass\Documents\Personal-Repository\SportsStore\SportsStore.Domain\bin\
 C:\Users\shass\Documents\Personal-Repository\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
 C:\Users\shass\Documents\Personal-Repository\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
 C:\Users\shass\Documents\Personal-Repository\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\Users\shass\Documents\Personal-Repository\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+C:\Users\shass\Documents\Personal-Repository\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+C:\Users\shass\Documents\Personal-Repository\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\shass\Documents\Personal-Repository\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+C:\Users\shass\Documents\Personal-Repository\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
