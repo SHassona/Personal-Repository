@@ -44,9 +44,9 @@ namespace SportsStore.Domain.Concrete
                     body.AppendFormat("{0} x {1} (wartość: {2:c})", line.Quantity, line.Product.Name, subtotal);
                 }
 
-                body.AppendFormat("Wartość całkowita:{0:c}", cart.ComputeTotalValue())
+                body.AppendFormat("Wartosc calkowita:{0:c}", cart.ComputeTotalValue())
                     .AppendLine("---")
-                    .AppendLine("Wysyłka dla:")
+                    .AppendLine("Wysylka dla:")
                     .AppendLine(shippingInfo.Name)
                     .AppendLine(shippingInfo.Line1)
                     .AppendLine(shippingInfo.Line2 ?? "")
