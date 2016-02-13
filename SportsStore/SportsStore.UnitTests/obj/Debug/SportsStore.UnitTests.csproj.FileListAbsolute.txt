@@ -25,7 +25,6 @@ C:\Users\Salcio\Documents\Personal-Repository\SportsStore\SportsStore.UnitTests\
 C:\Users\Salcio\Documents\Personal-Repository\SportsStore\SportsStore.UnitTests\bin\Debug\System.Web.WebPages.xml
 C:\Users\Salcio\Documents\Personal-Repository\SportsStore\SportsStore.UnitTests\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\Salcio\Documents\Personal-Repository\SportsStore\SportsStore.UnitTests\bin\Debug\System.Web.WebPages.Razor.xml
-C:\Users\Salcio\Documents\Personal-Repository\SportsStore\SportsStore.UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 C:\Users\Salcio\Documents\Personal-Repository\SportsStore\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.dll
 C:\Users\Salcio\Documents\Personal-Repository\SportsStore\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.pdb
 C:\Users\Salcio\Documents\Personal-Repository\SportsStore\SportsStore.UnitTests\bin\Debug\roslyn\csc.exe
