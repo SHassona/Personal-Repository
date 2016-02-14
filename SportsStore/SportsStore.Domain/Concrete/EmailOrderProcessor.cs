@@ -23,8 +23,10 @@ namespace SportsStore.Domain.Concrete
                 smtpClient.EnableSsl = emailSettings.UseSsl;
                 smtpClient.Host = emailSettings.ServerName;
                 smtpClient.Port = emailSettings.ServerPort;
+                smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
                 smtpClient.UseDefaultCredentials = false;
                 smtpClient.Credentials = new NetworkCredential(emailSettings.UserName, emailSettings.Password);
+                smtpClient.Timeout = 10000;
 
                 if (emailSettings.WriteAsFile)
                 {
@@ -63,6 +65,7 @@ namespace SportsStore.Domain.Concrete
                     emailSettings.MailToAddress,
                     "Otrzymano nowe zamówienie!",
                     body.ToString());
+                mailMessage.Priority = MailPriority.High;
 
                 if (emailSettings.WriteAsFile)
                 {

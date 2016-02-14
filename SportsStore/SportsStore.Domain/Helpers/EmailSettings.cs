@@ -2,11 +2,11 @@
 {
     public class EmailSettings
     {
-        public string MailToAddress = "zamowienia@przyklad.pl";
-        public string MailFromAddress = "sklepsportowy@przyklad.pl";
+        public string MailToAddress = "emailto@email.com";
+        public string MailFromAddress = "emailfrom@email.com";
         public bool UseSsl = true;
-        public string UserName = "yyy@gmail.com";
-        public string Password = "pw";
+        public string UserName = "emailfrom@email.com";
+        public string Password = "xxxxxxx";
         public string ServerName = "smtp.gmail.com";
         public int ServerPort = 587;
         public bool WriteAsFile = false;
