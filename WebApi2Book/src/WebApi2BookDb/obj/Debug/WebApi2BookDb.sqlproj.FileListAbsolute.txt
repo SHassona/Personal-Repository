@@ -1,0 +1,9 @@
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2BookDb\bin\Debug\WebApi2BookDb.dacpac
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2BookDb\bin\Debug\WebApi2BookDb.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2BookDb\bin\Debug\WebApi2BookDb.pdb
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2BookDb\obj\Debug\Model.xml
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2BookDb\obj\Debug\refactor.xml
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2BookDb\obj\Debug\postdeploy.sql
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2BookDb\obj\Debug\predeploy.sql
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2BookDb\obj\Debug\WebApi2BookDb.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2BookDb\obj\Debug\WebApi2BookDb.pdb

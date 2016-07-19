@@ -1,0 +1,4 @@
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common.Tests\bin\Debug\WebApi2Book.Web.Common.Tests.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common.Tests\bin\Debug\WebApi2Book.Web.Common.Tests.pdb
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common.Tests\obj\Debug\WebApi2Book.Web.Common.Tests.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common.Tests\obj\Debug\WebApi2Book.Web.Common.Tests.pdb

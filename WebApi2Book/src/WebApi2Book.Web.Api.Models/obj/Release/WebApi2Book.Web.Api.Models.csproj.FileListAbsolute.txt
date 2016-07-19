@@ -1,0 +1,5 @@
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api.Models\bin\Release\WebApi2Book.Web.Api.Models.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api.Models\bin\Release\WebApi2Book.Web.Api.Models.pdb
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api.Models\obj\Release\WebApi2Book.Web.Api.Models.csprojResolveAssemblyReference.cache
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api.Models\obj\Release\WebApi2Book.Web.Api.Models.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api.Models\obj\Release\WebApi2Book.Web.Api.Models.pdb
