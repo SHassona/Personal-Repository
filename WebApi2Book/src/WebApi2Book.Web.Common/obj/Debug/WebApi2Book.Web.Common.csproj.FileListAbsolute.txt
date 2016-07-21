@@ -17,3 +17,11 @@ C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Co
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common\obj\Debug\WebApi2Book.Web.Common.csprojResolveAssemblyReference.cache
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common\obj\Debug\WebApi2Book.Web.Common.dll
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common\obj\Debug\WebApi2Book.Web.Common.pdb
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common\bin\Debug\System.Web.Http.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common\bin\Debug\System.Web.Http.xml
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common\bin\Debug\System.Web.Http.WebHost.xml
