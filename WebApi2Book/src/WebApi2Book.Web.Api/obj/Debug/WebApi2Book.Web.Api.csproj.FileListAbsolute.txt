@@ -66,3 +66,5 @@ C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Ap
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\obj\Debug\WebApi2Book.Web.Api.csprojResolveAssemblyReference.cache
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\obj\Debug\WebApi2Book.Web.Api.dll
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\obj\Debug\WebApi2Book.Web.Api.pdb
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\bin\System.Web.Http.Tracing.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\bin\System.Web.Http.Tracing.xml

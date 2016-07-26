@@ -14,3 +14,5 @@ C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.S
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer\obj\Debug\WebApi2Book.Data.SqlServer.csprojResolveAssemblyReference.cache
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer\obj\Debug\WebApi2Book.Data.SqlServer.dll
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer\obj\Debug\WebApi2Book.Data.SqlServer.pdb
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer\bin\Debug\log4net.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer\bin\Debug\log4net.xml
