@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+﻿using System.Net.Http;
 using System.Web.Http;
 using WebApi2Book.Web.Api.Models;
 
@@ -13,7 +9,7 @@ namespace WebApi2Book.Web.Api.Controllers.V2
     {
         [Route("", Name = "AddTaskRouteV2")]
         [HttpPost]
-        public Task AddTask(HttpRequestMessage requestMessage, Models.Task newTask)
+        public Task AddTask(HttpRequestMessage requestMessage, NewTaskV2 newTask)
         {
             return new Task
             {

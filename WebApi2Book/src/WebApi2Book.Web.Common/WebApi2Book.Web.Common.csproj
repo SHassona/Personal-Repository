@@ -87,6 +87,8 @@
     <Compile Include="Routing\ApiVersion1RoutePrefixAttribute.cs" />
     <Compile Include="Routing\ApiVersionConstraint.cs" />
     <Compile Include="Routing\NamespaceHttpControllerSelector.cs" />
+    <Compile Include="Security\IWebUserSession.cs" />
+    <Compile Include="Security\UserSession.cs" />
     <Compile Include="SimpleTraceWriter.cs" />
     <Compile Include="UnitOfWorkActionFilterAttribute.cs" />
     <Compile Include="WebContainerManager.cs" />
