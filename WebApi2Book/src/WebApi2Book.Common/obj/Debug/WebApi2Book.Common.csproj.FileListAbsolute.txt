@@ -1,0 +1,9 @@
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common\bin\Debug\WebApi2Book.Common.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common\bin\Debug\WebApi2Book.Common.pdb
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common\bin\Debug\AutoMapper.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common\bin\Debug\log4net.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common\bin\Debug\AutoMapper.xml
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common\bin\Debug\log4net.xml
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common\obj\Debug\WebApi2Book.Common.csprojResolveAssemblyReference.cache
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common\obj\Debug\WebApi2Book.Common.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common\obj\Debug\WebApi2Book.Common.pdb
