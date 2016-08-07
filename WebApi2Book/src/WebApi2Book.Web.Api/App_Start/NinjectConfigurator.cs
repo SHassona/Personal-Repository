@@ -1,10 +1,16 @@
-﻿using FluentNHibernate.Cfg;
+﻿using System;
+using System.Linq;
+using System.Reflection;
+using AutoMapper;
+using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
 using log4net.Config;
 using NHibernate;
 using NHibernate.Context;
+using NHibernate.Util;
 using Ninject;
 using Ninject.Activation;
+using Ninject.Syntax;
 using Ninject.Web.Common;
 using WebApi2Book.Common;
 using WebApi2Book.Common.Logging;
@@ -80,25 +86,18 @@ namespace WebApi2Book.Web.Api
 
         private void ConfigureAutoMapper(IKernel container)
         {
-            container.Bind<IAutoMapper>().To<AutoMapperAdapter>().InSingletonScope();
-            container.Bind<IAutoMapperTypeConfigurator>()
-                .To<StatusEntityToStatusAutoMapperTypeConfigurator>()
-                .InSingletonScope();
-            container.Bind<IAutoMapperTypeConfigurator>()
-                .To<StatusToStatusEntityAutoMapperTypeConfigurator>()
-                .InSingletonScope();
-            container.Bind<IAutoMapperTypeConfigurator>()
-                .To<UserEntityToUserAutoMapperTypeConfigurator>()
-                .InSingletonScope();
-            container.Bind<IAutoMapperTypeConfigurator>()
-                .To<UserToUserEntityAutoMapperTypeConfigurator>()
-                .InSingletonScope();
-            container.Bind<IAutoMapperTypeConfigurator>()
-                .To<NewTaskToTaskEntityAutoMapperTypeConfigurator>()
-                .InSingletonScope();
-            container.Bind<IAutoMapperTypeConfigurator>()
-                .To<TaskEntityToTaskAutoMapperTypeConfigurator>()
-                .InSingletonScope();
+            var profileType = typeof(Profile);
+            // Get an instance of each Profile in the executing assembly.
+            var profiles = Assembly.GetExecutingAssembly().GetTypes()
+                .Where(t => profileType.IsAssignableFrom(t)
+                    && t.GetConstructor(Type.EmptyTypes) != null)
+                .Select(Activator.CreateInstance)
+                .Cast<Profile>();
+
+            // Initialize AutoMapper with each instance of the profiles found.
+            var config = new MapperConfiguration(cfg =>profiles.ForEach(cfg.AddProfile));
+            container.Bind<MapperConfiguration>().ToMethod(x => config).InSingletonScope();
+            container.Bind<IMapper>().ToConstant(config.CreateMapper()).InSingletonScope();
         }
     }
 }

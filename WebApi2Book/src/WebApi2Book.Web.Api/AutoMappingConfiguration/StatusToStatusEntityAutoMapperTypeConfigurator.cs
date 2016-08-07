@@ -4,15 +4,19 @@ using WebApi2Book.Web.Api.Models;
 
 namespace WebApi2Book.Web.Api.AutoMappingConfiguration
 {
-    public class StatusToStatusEntityAutoMapperTypeConfigurator : IAutoMapperTypeConfigurator
+    public class StatusToStatusEntityAutoMapperTypeConfigurator :Profile// IAutoMapperTypeConfigurator
     {
-        public void Configure()
+        public StatusToStatusEntityAutoMapperTypeConfigurator()
         {
-//            Mapper.CreateMap<Status, Data.Entities.Status>().ForMember(opt => opt.Version, x => x.Ignore());
-            Mapper.Initialize(cfg =>
-            {
-                cfg.CreateMap<Status, Data.Entities.Status>().ForMember(opt => opt.Version, x => x.Ignore());
-            });
+            CreateMap<Status, Data.Entities.Status>().ForMember(opt => opt.Version, x => x.Ignore());
         }
+//        public void Configure()
+//        {
+////            Mapper.CreateMap<Status, Data.Entities.Status>().ForMember(opt => opt.Version, x => x.Ignore());
+//            Mapper.Initialize(cfg =>
+//            {
+//                cfg.CreateMap<Status, Data.Entities.Status>().ForMember(opt => opt.Version, x => x.Ignore());
+//            });
+//        }
     }
 }

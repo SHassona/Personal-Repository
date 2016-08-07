@@ -1,4 +1,5 @@
-﻿using WebApi2Book.Common.TypeMapping;
+﻿using AutoMapper;
+using WebApi2Book.Common.TypeMapping;
 using WebApi2Book.Data.QueryProcessors;
 using WebApi2Book.Web.Api.Models;
 
@@ -6,9 +7,9 @@ namespace WebApi2Book.Web.Api.MaintenanceProcessing
 {
     public class AddTaskMaintenanceProcessor : IAddTaskMaintenanceProcessor
     {
-        private readonly IAutoMapper _autoMapper;
+        private readonly IMapper _autoMapper;
         private readonly IAddTaskQueryProcessor _queryProcessor;
-        public AddTaskMaintenanceProcessor(IAddTaskQueryProcessor queryProcessor, IAutoMapper autoMapper)
+        public AddTaskMaintenanceProcessor(IAddTaskQueryProcessor queryProcessor, IMapper autoMapper)
         {
             _queryProcessor = queryProcessor;
             _autoMapper = autoMapper;
