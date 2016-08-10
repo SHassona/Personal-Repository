@@ -1,0 +1,7 @@
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common.Tests\bin\Debug\WebApi2Book.Common.Tests.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common.Tests\bin\Debug\WebApi2Book.Common.Tests.pdb
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common.Tests\bin\Debug\WebApi2Book.Common.Tests.dll.CodeAnalysisLog.xml
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common.Tests\bin\Debug\WebApi2Book.Common.Tests.dll.lastcodeanalysissucceeded
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common.Tests\obj\Debug\WebApi2Book.Common.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common.Tests\obj\Debug\WebApi2Book.Common.Tests.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common.Tests\obj\Debug\WebApi2Book.Common.Tests.pdb
