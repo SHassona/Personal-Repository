@@ -1,5 +1,6 @@
 ﻿using System.Web;
 using System.Web.Http;
+using JwtAuthForWebAPI;
 using WebApi2Book.Common.Logging;
 using WebApi2Book.Common.Security;
 using WebApi2Book.Common.TypeMapping;
@@ -28,6 +29,16 @@ namespace WebApi2Book.Web.Api
 
             GlobalConfiguration.Configuration.MessageHandlers
                 .Add(new TaskDataSecurityMessageHandler(logManager, userSession));
+
+            var builder = new SecurityTokenBuilder();
+            var reader = new ConfigurationReader();
+            GlobalConfiguration.Configuration.MessageHandlers.Add(
+            new JwtAuthenticationMessageHandler
+            {
+                AllowedAudience = reader.AllowedAudience,
+                Issuer = reader.Issuer,
+                SigningToken = builder.CreateFromKey(reader.SymmetricKey)
+            });
         }
 
         protected void Application_Error()
