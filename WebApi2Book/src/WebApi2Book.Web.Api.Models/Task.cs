@@ -19,9 +19,20 @@ namespace WebApi2Book.Web.Api.Models
             get { return _links ?? (_links = new List<Link>()); }
             set { _links = value; }
         }
+
         public void AddLink(Link link)
         {
             Links.Add(link);
+        }
+
+        private bool _shouldSerializeAssignees;
+        public void SetShouldSerializeAssignees(bool shouldSerialize)
+        {
+            _shouldSerializeAssignees = shouldSerialize;
+        }
+        public bool ShouldSerializeAssignees()
+        {
+            return _shouldSerializeAssignees;
         }
     }
 }
