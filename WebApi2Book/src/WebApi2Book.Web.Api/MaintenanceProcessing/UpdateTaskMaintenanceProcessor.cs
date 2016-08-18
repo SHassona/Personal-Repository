@@ -33,8 +33,8 @@ namespace WebApi2Book.Web.Api.MaintenanceProcessing
             return task;
         }
 
-        public virtual PropertyValueMapType GetPropertyValueMap(
-            JObject taskFragment, Task taskContainingUpdateData)
+        public virtual PropertyValueMapType GetPropertyValueMap(JObject taskFragment,
+            Task taskContainingUpdateData)
         {
             var namesOfModifiedProperties = _updateablePropertyDetector
                 .GetNamesOfPropertiesToUpdate<Task>(taskFragment).ToList();
