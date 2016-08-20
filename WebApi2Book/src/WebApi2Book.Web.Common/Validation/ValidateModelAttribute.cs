@@ -13,8 +13,8 @@ namespace WebApi2Book.Web.Common.Validation
         {
             if (actionContext.ModelState.IsValid == false)
             {
-                actionContext.Response = actionContext.Request.CreateErrorResponse(
-                HttpStatusCode.BadRequest, actionContext.ModelState);
+                actionContext.Response = actionContext.Request
+                    .CreateErrorResponse(HttpStatusCode.BadRequest, actionContext.ModelState);
             }
         }
     }

@@ -30,15 +30,15 @@ namespace WebApi2Book.Web.Api.MaintenanceProcessing
         public override void OnActionExecuting(HttpActionContext actionContext)
         {
             var taskId = (long)actionContext.ActionArguments[ActionParameterNames.TaskId];
-            var taskFragment =
-            (JObject)actionContext.ActionArguments[ActionParameterNames.TaskFragment];
+            var taskFragment = (JObject)actionContext
+                .ActionArguments[ActionParameterNames.TaskFragment];
             _log.DebugFormat($"{ActionParameterNames.TaskFragment} = {taskFragment}");
             if (taskFragment == null)
             {
                 const string errorMessage = "Malformed or null request.";
                 _log.Debug(errorMessage);
-                actionContext.Response = actionContext.Request.CreateErrorResponse(
-                HttpStatusCode.BadRequest, errorMessage);
+                actionContext.Response = actionContext.Request
+                    .CreateErrorResponse(HttpStatusCode.BadRequest, errorMessage);
                 return;
             }
             try
@@ -48,15 +48,15 @@ namespace WebApi2Book.Web.Api.MaintenanceProcessing
                 {
                     const string errorMessage = "Task ids do not match.";
                     _log.Debug(errorMessage);
-                    actionContext.Response = actionContext.Request.CreateErrorResponse(
-                    HttpStatusCode.BadRequest, errorMessage);
+                    actionContext.Response = actionContext.Request
+                        .CreateErrorResponse(HttpStatusCode.BadRequest, errorMessage);
                 }
             }
             catch (JsonException ex)
             {
                 _log.Debug(ex.Message);
-                actionContext.Response = actionContext.Request.CreateErrorResponse(
-                HttpStatusCode.BadRequest, ex.Message);
+                actionContext.Response = actionContext.Request
+                    .CreateErrorResponse(HttpStatusCode.BadRequest, ex.Message);
             }
         }
 
