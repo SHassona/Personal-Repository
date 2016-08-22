@@ -47,9 +47,9 @@ namespace WebApi2Book.Web.Api.InquiryProcessing
         {
             inquiryResponse.AddLink(_taskLinkService.GetAllTasksLink());
             _commonLinkService.AddPageLinks(inquiryResponse,
-            GetCurrentPageQueryString(inquiryResponse),
-            GetPreviousPageQueryString(inquiryResponse),
-            GetNextPageQueryString(inquiryResponse));
+                GetCurrentPageQueryString(inquiryResponse),
+                GetPreviousPageQueryString(inquiryResponse),
+                GetNextPageQueryString(inquiryResponse));
         }
 
         public virtual IEnumerable<Task> GetTasks(IEnumerable<Data.Entities.Task> taskEntities)
@@ -66,24 +66,24 @@ namespace WebApi2Book.Web.Api.InquiryProcessing
         public virtual string GetCurrentPageQueryString(PagedTaskDataInquiryResponse inquiryResponse)
         {
             return
-            string.Format(QueryStringFormat,
-            inquiryResponse.PageNumber,
-            inquiryResponse.PageSize);
+                string.Format(QueryStringFormat,
+                    inquiryResponse.PageNumber,
+                    inquiryResponse.PageSize);
         }
 
         public virtual string GetPreviousPageQueryString(PagedTaskDataInquiryResponse inquiryResponse)
         {
             return
-            string.Format(QueryStringFormat,
-            inquiryResponse.PageNumber - 1,
-            inquiryResponse.PageSize);
+                string.Format(QueryStringFormat,
+                    inquiryResponse.PageNumber - 1,
+                    inquiryResponse.PageSize);
         }
 
         public virtual string GetNextPageQueryString(PagedTaskDataInquiryResponse inquiryResponse)
         {
             return string.Format(QueryStringFormat,
-            inquiryResponse.PageNumber + 1,
-            inquiryResponse.PageSize);
+                inquiryResponse.PageNumber + 1,
+                inquiryResponse.PageSize);
         }
     }
 }
