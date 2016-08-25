@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using WebApi2Book.Common;
 using WebApi2Book.Web.Api.MaintenanceProcessing;
 using WebApi2Book.Web.Api.Models;
@@ -15,6 +16,7 @@ namespace WebApi2Book.Web.Api.Controllers.V1
     [ApiVersion1RoutePrefix("tasks")]
     [UnitOfWorkActionFilter]
     [Authorize(Roles = Constants.RoleNames.SeniorWorker)]
+    [EnableCors("http://localhost:52976", "*", "*")]
     public class TaskUsersController : ApiController
     {
         private readonly ITaskUsersMaintenanceProcessor _taskUsersMaintenanceProcessor;
