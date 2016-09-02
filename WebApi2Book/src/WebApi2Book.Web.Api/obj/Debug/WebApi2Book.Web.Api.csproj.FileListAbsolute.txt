@@ -71,3 +71,10 @@ C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Ap
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\bin\JwtAuthForWebAPI.dll
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\bin\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\bin\Autofac.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\bin\Autofac.Integration.WebApi.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\bin\System.Web.Cors.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\bin\System.Web.Http.Cors.dll
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\bin\Autofac.xml
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\bin\Autofac.Integration.WebApi.xml
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\bin\System.Web.Http.Cors.xml
