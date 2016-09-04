@@ -26,6 +26,6 @@ namespace WebApi2Book.Data.Entities
             get { return _users; }
         }
 
-        public virtual byte[] Version { get; set; }
+        public virtual DateTime Version { get; set; }
     }
 }

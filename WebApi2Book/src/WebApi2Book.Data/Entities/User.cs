@@ -1,4 +1,6 @@
-﻿namespace WebApi2Book.Data.Entities
+﻿using System;
+
+namespace WebApi2Book.Data.Entities
 {
     public class User:IVersionedEntity
     {
@@ -6,6 +8,6 @@
         public virtual string Firstname { get; set; }
         public virtual string Lastname { get; set; }
         public virtual string Username { get; set; }
-        public virtual byte[] Version { get; set; }
+        public virtual DateTime Version { get; set; }
     }
 }

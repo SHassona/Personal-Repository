@@ -17,7 +17,7 @@ namespace WebApi2Book.Web.Api
             builder.RegisterWebApiFilterProvider(config);
             RegisterServices(builder);
             var container = builder.Build();
-            config.DependencyResolver = new AutofacWebApiDependencyResolver(container); ;
+            config.DependencyResolver = new AutofacWebApiDependencyResolver(container);
         }
 
         private static void RegisterServices(ContainerBuilder containerBuilder)

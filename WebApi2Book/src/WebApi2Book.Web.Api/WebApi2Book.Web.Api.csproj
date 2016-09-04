@@ -108,6 +108,10 @@
       <HintPath>..\..\lib\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\..\lib\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <HintPath>..\..\lib\packages\NHibernate.4.0.4.4000\lib\net40\NHibernate.dll</HintPath>
       <Private>True</Private>
@@ -185,8 +189,6 @@
     <Compile Include="App_Start\AutofacConfigurator.cs" />
     <Compile Include="App_Start\AutofacWebCommon.cs" />
     <Compile Include="App_Start\AutoMapperConfigurator.cs" />
-    <Compile Include="App_Start\NinjectConfigurator.cs" />
-    <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="AutoMappingConfiguration\NewTaskToTaskEntityAutoMapperTypeConfigurator.cs" />
     <Compile Include="AutoMappingConfiguration\StatusEntityToStatusAutoMapperTypeConfigurator.cs" />

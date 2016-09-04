@@ -78,3 +78,4 @@ C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Ap
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\bin\Autofac.xml
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\bin\Autofac.Integration.WebApi.xml
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\bin\System.Web.Http.Cors.xml
+C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api\bin\MySql.Data.dll

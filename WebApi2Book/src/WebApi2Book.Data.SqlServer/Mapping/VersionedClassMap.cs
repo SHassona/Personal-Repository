@@ -9,7 +9,7 @@ namespace WebApi2Book.Data.SqlServer.Mapping
         {
             Version(x => x.Version)
             .Column("ts")
-            .CustomSqlType("Rowversion")
+            .CustomSqlType("TIMESTAMP")
             .Generated.Always()
             .UnsavedValue("null");
         }
