@@ -4,3 +4,8 @@ C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.S
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer.IntegrationTests\bin\Debug\WebApi2Book.Data.SqlServer.IntegrationTests.dll.lastcodeanalysissucceeded
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer.IntegrationTests\obj\Debug\WebApi2Book.Data.SqlServer.IntegrationTests.dll
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer.IntegrationTests\obj\Debug\WebApi2Book.Data.SqlServer.IntegrationTests.pdb
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer.IntegrationTests\bin\Debug\WebApi2Book.Data.SqlServer.IntegrationTests.dll
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer.IntegrationTests\bin\Debug\WebApi2Book.Data.SqlServer.IntegrationTests.pdb
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer.IntegrationTests\obj\Debug\WebApi2Book.Data.SqlServer.IntegrationTests.dll
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer.IntegrationTests\obj\Debug\WebApi2Book.Data.SqlServer.IntegrationTests.pdb
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer.IntegrationTests\obj\Debug\WebApi2Book.Data.SqlServer.IntegrationTests.csprojResolveAssemblyReference.cache

@@ -4,3 +4,7 @@ C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Co
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common.Tests\bin\Debug\WebApi2Book.Web.Common.Tests.dll.lastcodeanalysissucceeded
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common.Tests\obj\Debug\WebApi2Book.Web.Common.Tests.dll
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common.Tests\obj\Debug\WebApi2Book.Web.Common.Tests.pdb
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common.Tests\bin\Debug\WebApi2Book.Web.Common.Tests.dll
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common.Tests\bin\Debug\WebApi2Book.Web.Common.Tests.pdb
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common.Tests\obj\Debug\WebApi2Book.Web.Common.Tests.dll
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Common.Tests\obj\Debug\WebApi2Book.Web.Common.Tests.pdb

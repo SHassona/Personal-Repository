@@ -9,3 +9,14 @@ C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data\b
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data\bin\Debug\WebApi2Book.Common.pdb
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data\bin\Debug\log4net.xml
 C:\Users\Salcio\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data\bin\Debug\AutoMapper.xml
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data\bin\Debug\WebApi2Book.Data.dll
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data\bin\Debug\WebApi2Book.Data.pdb
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data\bin\Debug\WebApi2Book.Common.dll
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data\bin\Debug\log4net.dll
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data\bin\Debug\AutoMapper.dll
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data\bin\Debug\WebApi2Book.Common.pdb
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data\bin\Debug\log4net.xml
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data\bin\Debug\AutoMapper.xml
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data\obj\Debug\WebApi2Book.Data.csprojResolveAssemblyReference.cache
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data\obj\Debug\WebApi2Book.Data.dll
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data\obj\Debug\WebApi2Book.Data.pdb

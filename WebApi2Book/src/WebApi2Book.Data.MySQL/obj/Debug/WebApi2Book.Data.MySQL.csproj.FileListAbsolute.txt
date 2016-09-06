@@ -1,0 +1,1 @@
+C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.MySQL\obj\Debug\WebApi2Book.Data.MySQL.csprojResolveAssemblyReference.cache

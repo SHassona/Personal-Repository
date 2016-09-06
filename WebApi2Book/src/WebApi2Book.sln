@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateJwt", "CreateJwt\Crea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi2Book.Data.MySQL", "WebApi2Book.Data.MySQL\WebApi2Book.Data.MySQL.csproj", "{1FE81083-C622-4AB3-92E5-74C05F5A8C1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi2Book.DatabaseFirst", "WebApi2Book.DatabaseFirst\WebApi2Book.DatabaseFirst.csproj", "{AA43D69C-1061-4B8A-B730-0E252A25201B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,10 @@ Global
 		{1FE81083-C622-4AB3-92E5-74C05F5A8C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FE81083-C622-4AB3-92E5-74C05F5A8C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FE81083-C622-4AB3-92E5-74C05F5A8C1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA43D69C-1061-4B8A-B730-0E252A25201B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA43D69C-1061-4B8A-B730-0E252A25201B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA43D69C-1061-4B8A-B730-0E252A25201B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA43D69C-1061-4B8A-B730-0E252A25201B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
