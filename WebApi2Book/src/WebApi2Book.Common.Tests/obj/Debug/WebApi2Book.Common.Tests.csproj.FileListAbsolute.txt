@@ -10,3 +10,8 @@ C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common.
 C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common.Tests\obj\Debug\WebApi2Book.Common.Tests.dll
 C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common.Tests\obj\Debug\WebApi2Book.Common.Tests.pdb
 C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common.Tests\obj\Debug\WebApi2Book.Common.Tests.csprojResolveAssemblyReference.cache
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common.Tests\bin\Debug\WebApi2Book.Common.Tests.dll
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common.Tests\bin\Debug\WebApi2Book.Common.Tests.pdb
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common.Tests\obj\Debug\WebApi2Book.Common.Tests.dll
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common.Tests\obj\Debug\WebApi2Book.Common.Tests.pdb
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Common.Tests\obj\Debug\WebApi2Book.Common.Tests.csprojResolveAssemblyReference.cache

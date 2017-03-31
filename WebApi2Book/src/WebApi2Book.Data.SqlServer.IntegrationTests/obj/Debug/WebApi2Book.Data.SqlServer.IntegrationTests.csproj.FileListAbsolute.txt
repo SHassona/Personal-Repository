@@ -9,3 +9,7 @@ C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.Sq
 C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer.IntegrationTests\obj\Debug\WebApi2Book.Data.SqlServer.IntegrationTests.dll
 C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer.IntegrationTests\obj\Debug\WebApi2Book.Data.SqlServer.IntegrationTests.pdb
 C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer.IntegrationTests\obj\Debug\WebApi2Book.Data.SqlServer.IntegrationTests.csprojResolveAssemblyReference.cache
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer.IntegrationTests\bin\Debug\WebApi2Book.Data.SqlServer.IntegrationTests.dll
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer.IntegrationTests\bin\Debug\WebApi2Book.Data.SqlServer.IntegrationTests.pdb
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer.IntegrationTests\obj\Debug\WebApi2Book.Data.SqlServer.IntegrationTests.dll
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.SqlServer.IntegrationTests\obj\Debug\WebApi2Book.Data.SqlServer.IntegrationTests.pdb

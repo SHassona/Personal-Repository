@@ -30,7 +30,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\lib\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\lib\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\..\lib\packages\Iesi.Collections.4.0.0.4000\lib\net40\Iesi.Collections.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\..\lib\packages\NHibernate.4.0.4.4000\lib\net40\NHibernate.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,6 +63,7 @@
     <Compile Include="QueryProcessors\TaskByIdQueryProcessor.cs" />
     <Compile Include="QueryProcessors\UpdateTaskQueryProcessor.cs" />
     <Compile Include="QueryProcessors\UpdateTaskStatusQueryProcessor.cs" />
+    <Compile Include="UnitOfWorkFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Mapping\" />
@@ -55,10 +73,18 @@
       <Project>{7e31bf2e-d475-4e72-9a6a-7924073260c4}</Project>
       <Name>WebApi2Book.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WebApi2Book.DatabaseFirst\WebApi2Book.DatabaseFirst.csproj">
+      <Project>{aa43d69c-1061-4b8a-b730-0e252a25201b}</Project>
+      <Name>WebApi2Book.DatabaseFirst</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WebApi2Book.Data\WebApi2Book.Data.csproj">
       <Project>{59516248-ff1d-4b99-b7eb-6f339ff63c5b}</Project>
       <Name>WebApi2Book.Data</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

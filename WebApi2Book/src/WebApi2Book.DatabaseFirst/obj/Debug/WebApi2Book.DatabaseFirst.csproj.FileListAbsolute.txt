@@ -11,3 +11,14 @@ C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Databas
 C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.DatabaseFirst\bin\Debug\MySql.Web.dll
 C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.DatabaseFirst\bin\Debug\EntityFramework.xml
 C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.DatabaseFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.DatabaseFirst\bin\Debug\WebApi2Book.DatabaseFirst.pdb
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.DatabaseFirst\bin\Debug\EntityFramework.dll
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.DatabaseFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.DatabaseFirst\bin\Debug\MySql.Data.dll
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.DatabaseFirst\bin\Debug\EntityFramework.xml
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.DatabaseFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.DatabaseFirst\obj\Debug\WebApi2Book.DatabaseFirst.pdb
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.DatabaseFirst\bin\Debug\WebApi2Book.DatabaseFirst.dll.config
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.DatabaseFirst\bin\Debug\WebApi2Book.DatabaseFirst.dll
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.DatabaseFirst\obj\Debug\WebApi2Book.DatabaseFirst.dll
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.DatabaseFirst\obj\Debug\WebApi2Book.DatabaseFirst.csprojResolveAssemblyReference.cache

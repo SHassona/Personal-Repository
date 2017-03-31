@@ -1,4 +1,6 @@
-﻿using System.Security.Claims;
+﻿using System.Data.Entity;
+using System.Linq;
+using System.Security.Claims;
 using System.Security.Principal;
 using System.Threading;
 using System.Web;
@@ -6,8 +8,9 @@ using log4net;
 using NHibernate;
 using WebApi2Book.Common;
 using WebApi2Book.Common.Logging;
-using WebApi2Book.Data.Entities;
+using WebApi2Book.DatabaseFirst;
 using WebApi2Book.Web.Common;
+using User = WebApi2Book.Data.Entities.User;
 
 namespace WebApi2Book.Web.Api.Security
 {
@@ -21,6 +24,7 @@ namespace WebApi2Book.Web.Api.Security
         }
 
         public virtual ISession Session => WebContainerManager.Get<ISession>();
+//        public virtual DbContext Context => WebContainerManager.Get<DbContext>();
 
         public bool SetPrincipal(string username, string password)
         {
@@ -65,6 +69,19 @@ namespace WebApi2Book.Web.Api.Security
             return new ClaimsPrincipal(identity);
         }
 
+//        public virtual User GetUser(string username)
+//        {
+//            username = username.ToLowerInvariant();
+//            var userDal = Context.Set<DatabaseFirst.User>().SingleOrDefault(x => x.Username == username);
+//
+//            return userDal ==null? null: new User
+//            {
+//                Firstname = userDal.Firstname,
+//                Lastname = userDal.Lastname,
+//                Username = userDal.Username,
+//                UserId = userDal.UserId
+//            };
+//        }
         public virtual User GetUser(string username)
         {
             username = username.ToLowerInvariant();

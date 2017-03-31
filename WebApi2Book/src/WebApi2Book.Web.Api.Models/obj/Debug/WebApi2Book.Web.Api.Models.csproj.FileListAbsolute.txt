@@ -8,3 +8,8 @@ C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api
 C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api.Models\obj\Debug\WebApi2Book.Web.Api.Models.dll
 C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api.Models\obj\Debug\WebApi2Book.Web.Api.Models.pdb
 C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api.Models\obj\Debug\WebApi2Book.Web.Api.Models.csprojResolveAssemblyReference.cache
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api.Models\bin\Debug\WebApi2Book.Web.Api.Models.dll
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api.Models\bin\Debug\WebApi2Book.Web.Api.Models.pdb
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api.Models\obj\Debug\WebApi2Book.Web.Api.Models.dll
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api.Models\obj\Debug\WebApi2Book.Web.Api.Models.pdb
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Web.Api.Models\obj\Debug\WebApi2Book.Web.Api.Models.csprojResolveAssemblyReference.cache

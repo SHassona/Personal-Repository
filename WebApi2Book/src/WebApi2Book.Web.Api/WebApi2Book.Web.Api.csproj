@@ -55,6 +55,14 @@
       <HintPath>..\..\lib\packages\AutoMapper.5.0.2\lib\net45\AutoMapper.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\lib\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\lib\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="FluentNHibernate, Version=2.0.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\lib\packages\FluentNHibernate.2.0.3.0\lib\net40\FluentNHibernate.dll</HintPath>
       <Private>True</Private>
@@ -110,6 +118,10 @@
     </Reference>
     <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <HintPath>..\..\lib\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\..\lib\packages\MySql.Data.Entity.6.9.9\lib\net45\MySql.Data.Entity.EF6.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
@@ -261,9 +273,17 @@
       <Project>{7e31bf2e-d475-4e72-9a6a-7924073260c4}</Project>
       <Name>WebApi2Book.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WebApi2Book.Data.MySQL\WebApi2Book.Data.MySQL.csproj">
+      <Project>{1FE81083-C622-4AB3-92E5-74C05F5A8C1D}</Project>
+      <Name>WebApi2Book.Data.MySQL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WebApi2Book.Data.SqlServer\WebApi2Book.Data.SqlServer.csproj">
       <Project>{ed138e34-f0a9-4e62-b5bf-58f085614235}</Project>
       <Name>WebApi2Book.Data.SqlServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebApi2Book.DatabaseFirst\WebApi2Book.DatabaseFirst.csproj">
+      <Project>{AA43D69C-1061-4B8A-B730-0E252A25201B}</Project>
+      <Name>WebApi2Book.DatabaseFirst</Name>
     </ProjectReference>
     <ProjectReference Include="..\WebApi2Book.Data\WebApi2Book.Data.csproj">
       <Project>{59516248-ff1d-4b99-b7eb-6f339ff63c5b}</Project>

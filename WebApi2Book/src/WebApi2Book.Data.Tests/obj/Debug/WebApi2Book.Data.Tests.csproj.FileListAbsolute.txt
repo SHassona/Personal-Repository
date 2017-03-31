@@ -8,3 +8,7 @@ C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.Te
 C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.Tests\bin\Debug\WebApi2Book.Data.Tests.pdb
 C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.Tests\obj\Debug\WebApi2Book.Data.Tests.dll
 C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.Tests\obj\Debug\WebApi2Book.Data.Tests.pdb
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.Tests\bin\Debug\WebApi2Book.Data.Tests.dll
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.Tests\bin\Debug\WebApi2Book.Data.Tests.pdb
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.Tests\obj\Debug\WebApi2Book.Data.Tests.dll
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\WebApi2Book.Data.Tests\obj\Debug\WebApi2Book.Data.Tests.pdb

@@ -20,3 +20,14 @@ C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\CreateJwt\bin\Debug
 C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\CreateJwt\obj\Debug\CreateJwt.exe
 C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\CreateJwt\obj\Debug\CreateJwt.pdb
 C:\Users\shass\Documents\Personal-Repository\WebApi2Book\src\CreateJwt\obj\Debug\CreateJwt.csprojResolveAssemblyReference.cache
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\CreateJwt\bin\Debug\CreateJwt.exe.config
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\CreateJwt\bin\Debug\CreateJwt.exe
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\CreateJwt\bin\Debug\CreateJwt.pdb
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\CreateJwt\bin\Debug\JwtAuthForWebAPI.dll
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\CreateJwt\bin\Debug\log4net.dll
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\CreateJwt\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\CreateJwt\bin\Debug\log4net.xml
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\CreateJwt\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\CreateJwt\obj\Debug\CreateJwt.csprojResolveAssemblyReference.cache
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\CreateJwt\obj\Debug\CreateJwt.exe
+C:\Users\KOMPUTER\Documents\Personal-Repository\WebApi2Book\src\CreateJwt\obj\Debug\CreateJwt.pdb

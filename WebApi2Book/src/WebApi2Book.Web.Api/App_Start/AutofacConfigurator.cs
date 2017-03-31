@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.Entity;
 using System.Linq;
 using System.Reflection;
 using Autofac;
@@ -17,9 +18,13 @@ using Ninject.Web.Common;
 using WebApi2Book.Common;
 using WebApi2Book.Common.Logging;
 using WebApi2Book.Common.Security;
+using WebApi2Book.Data;
+//using WebApi2Book.Data.MySQL;
+//using WebApi2Book.Data.MySQL.QueryProcessors;
 using WebApi2Book.Data.QueryProcessors;
 using WebApi2Book.Data.SqlServer.Mapping;
 using WebApi2Book.Data.SqlServer.QueryProcessors;
+using WebApi2Book.DatabaseFirst;
 using WebApi2Book.Web.Api.Controllers.V1;
 using WebApi2Book.Web.Api.InquiryProcessing;
 using WebApi2Book.Web.Api.LinkServices;
@@ -39,8 +44,10 @@ namespace WebApi2Book.Web.Api
 
         private void AddBindings(ContainerBuilder containerBuilder)
         {
+
             ConfigureLog4Net(containerBuilder);
             ConfigureUserSession(containerBuilder);
+//            ConfigureEntityFamework(containerBuilder);
             ConfigureNHibernate(containerBuilder);
             ConfigureAutoMapper(containerBuilder);
 
@@ -74,30 +81,36 @@ namespace WebApi2Book.Web.Api
             containerBuilder.RegisterInstance(logManager).As<ILogManager>();
         }
 
-        private static void ConfigureNHibernate(ContainerBuilder containerBuilder)
-        {
-            var sessionFactory = Fluently.Configure()
-                .Database(
-                    MySQLConfiguration.Standard
-                        .ConnectionString(c => c.FromConnectionStringWithKey("WebApi2BookDb")))
-                .CurrentSessionContext("web")
-                .Mappings(m => m.FluentMappings.AddFromAssemblyOf<TaskMap>())
-                .BuildSessionFactory();
-            containerBuilder.RegisterInstance(sessionFactory).As<ISessionFactory>();
-            containerBuilder.Register(CreateSession).As<ISession>().InstancePerDependency();
-            containerBuilder.RegisterType<ActionTransactionHelper>().As<IActionTransactionHelper>().InstancePerLifetimeScope();
-        }
+                private static void ConfigureNHibernate(ContainerBuilder containerBuilder)
+                {
+                    var sessionFactory = Fluently.Configure()
+                        .Database(
+                            MySQLConfiguration.Standard
+                                .ConnectionString(c => c.FromConnectionStringWithKey("WebApi2BookDb")))
+                        .CurrentSessionContext("web")
+                        .Mappings(m => m.FluentMappings.AddFromAssemblyOf<TaskMap>())
+                        .BuildSessionFactory();
+                    containerBuilder.RegisterInstance(sessionFactory).As<ISessionFactory>();
+                    containerBuilder.Register(CreateSession).As<ISession>().InstancePerDependency();
+                    containerBuilder.RegisterType<ActionTransactionHelper>().As<IActionTransactionHelper>().InstancePerLifetimeScope();
+                }
 
-        private static ISession CreateSession(IComponentContext componentContext)
-        {
-            var sessionFactory = componentContext.Resolve<ISessionFactory>();
-            if (!CurrentSessionContext.HasBind(sessionFactory))
-            {
-                var session = sessionFactory.OpenSession();
-                CurrentSessionContext.Bind(session);
-            }
-            return sessionFactory.GetCurrentSession();
-        }
+                private static ISession CreateSession(IComponentContext componentContext)
+                {
+                    var sessionFactory = componentContext.Resolve<ISessionFactory>();
+                    if (!CurrentSessionContext.HasBind(sessionFactory))
+                    {
+                        var session = sessionFactory.OpenSession();
+                        CurrentSessionContext.Bind(session);
+                    }
+                    return sessionFactory.GetCurrentSession();
+                }
+//        private static void ConfigureEntityFamework(ContainerBuilder containerBuilder)
+//        {
+//            containerBuilder.RegisterType<WebApi2BookDbEntities>().As<DbContext>().InstancePerLifetimeScope();
+//            containerBuilder.RegisterType<UnitOfWorkFactory>().As<IUnitOfWorkFactory>().InstancePerLifetimeScope();
+//        }
+
 
         private void ConfigureUserSession(ContainerBuilder containerBuilder)
         {
